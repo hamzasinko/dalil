@@ -1,0 +1,57 @@
+name: Feature request
+description: Suggest an idea for Dalil
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing an idea! Ideas that fit the project vision
+        (understanding code execution) are especially welcome.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem would this feature solve? A concrete scenario helps.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: What you would like to happen, ideally with an API sketch.
+      render: python
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other solutions or workarounds you considered.
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: This concerns the core decorator / tracing behavior.
+        - label: This concerns a new output format (flowchart, report, LaTeX, CLI).
+        - label: This concerns packaging, CI, or documentation.
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Links, mockups, references to other tools.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues and roadmap items for duplicates.
+          required: true
+        - label: I am willing to help implement this feature.

@@ -1,0 +1,9 @@
+# Default owners for everything in the repository.
+# NOTE: replace the handles below with the contributors' actual GitHub
+# usernames before the repository goes public.
+* @HamzaFikri @ZakariaeElbouzidi @HayatLotfi @AliEssarsare
+
+# Packaging, releases and CI are owned by the maintainers as well.
+/pyproject.toml @HamzaFikri @ZakariaeElbouzidi
+/.github/ @HamzaFikri @ZakariaeElbouzidi
+/CHANGELOG.md @HayatLotfi @AliEssarsare

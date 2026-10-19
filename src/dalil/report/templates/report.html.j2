@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dalil report — {{ history.function }}</title>
+</head>
+<body>
+  <h1>{{ history.function }}</h1>
+
+  <section id="complexity">
+    <h2>Complexity</h2>
+    <p>Time: {{ complexity.time }}</p>
+    <p>Space: {{ complexity.space }}</p>
+    <p>{{ complexity.explanation }}</p>
+  </section>
+
+  <section id="flowchart">
+    <h2>Flowchart</h2>
+    <ul>
+      {%- for node in graph.nodes %}
+      <li>{{ node.kind }}: {{ node.label }}</li>
+      {%- endfor %}
+    </ul>
+    <ul>
+      {%- for edge in graph.edges %}
+      <li>{{ edge.source }} -&gt; {{ edge.target }}{% if edge.label %} ({{ edge.label }}){% endif %}</li>
+      {%- endfor %}
+    </ul>
+  </section>
+
+  <section id="history">
+    <h2>Execution history</h2>
+    <table>
+      <thead>
+        <tr><th>Line</th><th>Event</th><th>Locals</th></tr>
+      </thead>
+      <tbody>
+        {%- for event in history.events %}
+        <tr>
+          <td>{{ event.lineno }}</td>
+          <td>{{ event.event }}</td>
+          <td>{{ event.locals_snapshot }}</td>
+        </tr>
+        {%- endfor %}
+      </tbody>
+    </table>
+  </section>
+</body>
+</html>
