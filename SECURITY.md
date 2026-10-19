@@ -16,7 +16,7 @@ security fixes.
 
 Instead, please report them privately using one of these channels:
 
-- GitHub Security Advisory: https://github.com/dalil-python/dalil/security/advisories/new
+- GitHub Security Advisory: https://github.com/hamzasinko/dalil/security/advisories/new
 - Email: security@dalil.dev (placeholder — replace with a monitored address
   before launch)
 
