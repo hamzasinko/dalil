@@ -2,11 +2,11 @@
 
 **Understand your Python code, one decoration at a time.**
 
-[![CI](https://github.com/dalil-python/dalil/actions/workflows/ci.yml/badge.svg)](https://github.com/dalil-python/dalil/actions/workflows/ci.yml)
-[![Coverage](https://img.shields.io/badge/coverage-%E2%89%A590%25-brightgreen)](https://github.com/dalil-python/dalil/actions/workflows/ci.yml)
-[![PyPI](https://img.shields.io/pypi/v/dalil.svg)](https://pypi.org/project/dalil/)
-[![Python](https://img.shields.io/pypi/pyversions/dalil.svg)](https://pypi.org/project/dalil/)
-[![License: MIT](https://img.shields.io/pypi/l/dalil.svg)](LICENSE)
+[![CI](https://github.com/hamzasinko/dalil/actions/workflows/ci.yml/badge.svg)](https://github.com/hamzasinko/dalil/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen)](https://github.com/hamzasinko/dalil/actions/workflows/ci.yml)
+[![Version](https://img.shields.io/badge/version-0.1.0-blue)](CHANGELOG.md)
+[![Python](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue)](pyproject.toml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 *Dalil* (دليل — Arabic for *guide*) makes code execution understandable. A single
 decorator turns any Python function into a visual flowchart, a line-by-line

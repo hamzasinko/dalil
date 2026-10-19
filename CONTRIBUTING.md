@@ -6,7 +6,7 @@ development setup, coding conventions, and the pull-request process.
 ## Development setup
 
 ```bash
-git clone https://github.com/dalil-python/dalil.git
+git clone https://github.com/hamzasinko/dalil.git
 cd dalil
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
@@ -127,7 +127,7 @@ Types: `feat`, `fix`, `docs`, `refactor`, `test`, `chore`, `ci`, `perf`,
 
 ## Reporting bugs and proposing features
 
-Use the [issue templates](https://github.com/dalil-python/dalil/issues/new/choose).
+Use the [issue templates](https://github.com/hamzasinko/dalil/issues/new/choose).
 For security issues, see [SECURITY.md](SECURITY.md) — do **not** open a public
 issue.
 
