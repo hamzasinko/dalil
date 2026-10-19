@@ -44,11 +44,11 @@ dev = [
 docs = ["mkdocs-material"]
 
 [project.urls]
-Homepage = "https://github.com/dalil-python/dalil"
-Documentation = "https://dalil-python.github.io/dalil/"
-Repository = "https://github.com/dalil-python/dalil"
-Issues = "https://github.com/dalil-python/dalil/issues"
-Changelog = "https://github.com/dalil-python/dalil/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/hamzasinko/dalil"
+Documentation = "https://github.com/hamzasinko/dalil/blob/dev/docs/index.md"
+Repository = "https://github.com/hamzasinko/dalil"
+Issues = "https://github.com/hamzasinko/dalil/issues"
+Changelog = "https://github.com/hamzasinko/dalil/blob/dev/CHANGELOG.md"
 
 [tool.hatch.version]
 path = "src/dalil/__init__.py"

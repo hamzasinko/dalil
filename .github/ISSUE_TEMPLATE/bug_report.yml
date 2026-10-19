@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to report a bug!
-        **Security issues**: please follow [SECURITY.md](https://github.com/dalil-python/dalil/blob/main/SECURITY.md) instead of opening a public issue.
+        **Security issues**: please follow [SECURITY.md](https://github.com/hamzasinko/dalil/blob/main/SECURITY.md) instead of opening a public issue.
 
   - type: textarea
     id: description
