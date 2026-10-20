@@ -14,11 +14,10 @@ security fixes.
 
 **Do not open a public issue for security vulnerabilities.**
 
-Instead, please report them privately using one of these channels:
+Instead, please report them privately using the GitHub Security Advisory
+channel:
 
-- GitHub Security Advisory: https://github.com/hamzasinko/dalil/security/advisories/new
-- Email: security@dalil.dev (placeholder — replace with a monitored address
-  before launch)
+- https://github.com/hamzasinko/dalil/security/advisories/new
 
 Please include:
 
