@@ -95,6 +95,25 @@ src/dalil/
 Each layer is independent and separately testable; see
 [docs/architecture.md](docs/architecture.md).
 
+## Documentation
+
+- [Overview](docs/index.md)
+- [Architecture](docs/architecture.md)
+- [Usage](docs/usage.md)
+
+## Development
+
+```bash
+python -m pip install -e ".[dev]"
+python -m pytest                        # tests + coverage (>= 90%)
+python -m ruff check .                  # lint
+python -m ruff format --check .         # formatting
+python -m mypy --strict src tests       # types
+python -m build && twine check dist/*   # packaging
+```
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the full workflow.
+
 ## Roadmap
 
 - [x] Project skeleton, packaging, CI, docs scaffolding

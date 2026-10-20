@@ -94,7 +94,9 @@ Every arrow above is a pull request protected by branch protection:
 - `main`, `dev` and `prod` require a PR, **1 approving review**, a linear
   history (squash/rebase only), no force-push, and the required status checks
   `lint`, `test`, `build`.
-- `prod` additionally restricts merges to maintainers.
+- `prod` has the same rules: merge access is limited to users with write access
+  to the repository (this is a personal repository, so per-user restrictions
+  cannot be configured; move it to an organization to add them).
 - `feature/*`, `fix/*` and `docs/*` are free to push; they may only land in
   `dev` through a PR.
 
