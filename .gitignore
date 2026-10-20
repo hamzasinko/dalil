@@ -62,3 +62,5 @@ Thumbs.db
 # Tools
 *.log
 AGENTS.md
+docs/guide-utilisation.html
+docs/guide-utilisation.pdf
