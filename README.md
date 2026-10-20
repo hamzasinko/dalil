@@ -100,6 +100,7 @@ Each layer is independent and separately testable; see
 - [Overview](docs/index.md)
 - [Architecture](docs/architecture.md)
 - [Usage](docs/usage.md)
+- [Guide d'utilisation (PDF)](docs/guide-utilisation.pdf)
 
 ## Development
 
